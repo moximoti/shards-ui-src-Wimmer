@@ -1,0 +1,200 @@
+// Landing page styles.
+.dropdown-toggle::after {
+  vertical-align: 0;
+  border: 0;
+  content: "\f107";
+  font-family: 'FontAwesome';
+  display: inline;
+
+}
+a:focus {
+  outline: none;
+}
+@include media-breakpoint-between(sm, lg) {
+  .navbar-expand-md>.container, .navbar-expand-md>.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+.wimmer-main {
+  .main-container {
+    position: relative;
+    box-shadow: 0 -3px 5px 0 rgba(0, 0, 0, .1), 0 -1px 2px -1px rgba(0, 0, 0, .5);
+  }
+  .navbar {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    padding: .5rem 1rem;
+  }
+  .navbar-wim {
+    border-top: 5px solid #273c81;
+    margin-top: 14px;
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1), 0px 1px 2px -1px rgba(0, 0, 0, 0.8)
+  }
+  .navbar-light {
+    .wim-logo-light {
+    display: none;
+    }
+  }
+  .navbar-dark {
+    margin-top: 4px;
+    .wim-logo-dark {
+    display: none;
+    }
+    .navbar-nav .nav-link {
+      color: rgba(255,255,255,.9);
+    }
+  }
+  .navbar-nav {
+    .nav-link {
+      padding-right: .625rem ;
+      padding-left: .625rem;
+    }
+  }
+  .breadcrumb {
+    //margin-top: -1.5em;
+    position: relative;
+    box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.5);
+    background-color: #f8f9fa;
+  }
+  .nav-breadcrumb {
+    margin-top:-1.5em;
+    position: absolute;
+    width: 100%
+  }
+  .breadcrumb-item a,
+  .breadcrumb-item a:hover {
+    color: $gray-700;
+    font-size: $btn-font-size;
+
+  }
+
+  // Welcome section
+  // Sets up the background cover image and the overlay gradient.
+  .welcome {
+    position: relative;
+    height: 50vh;
+    min-height: 400px;
+    background: url('../images/_MG_6379_web.jpg') no-repeat fixed;
+    background-size: cover;
+    padding-top: 100px;
+
+    &:before {
+      position: absolute;
+      z-index: 0;
+      content: '';
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      opacity: .3;
+      background: theme-color("primary");
+    }
+
+    @include media-breakpoint-down(sm) {
+      .inner-wrapper {
+        text-align: center;
+      }
+    }
+
+    @media (max-width: 400px) {
+      .welcome-heading {
+        font-size: 2.415rem;
+      }
+    }
+  }
+
+  // Custom section title styling.
+  // Adds the small border at the bottom of each section title.
+  .section-title {
+    position: relative;
+    &:after {
+      content: '';
+      width: 30px;
+      height: 2px;
+      background: theme-color("primary");
+      position: absolute;
+      left: 50%;
+      margin-left: -15px;
+      bottom: -20px;
+    }
+  }
+
+  // Features
+  .feature {
+    .icon {
+      border-radius: 50%;
+      min-width: 65px;
+      height: 65px;
+      line-height: 65px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(#212529, .1), 0 7px 14px rgba(#212529, .1);
+      font-size: 27px;
+    }
+  }
+
+  // Better separation between sections.
+  .section {
+    border-bottom: 1px solid lighten($blueish-grey, 54);
+  }
+
+  // Add a different tint to some sections.
+  .section-invert {
+    background: #f9fafc;
+  }
+
+  // Testimonials Section
+  .testimonials .avatar {
+    max-width: 80px;
+    overflow: hidden;
+  }
+
+  .wim-colorbar {
+    position: fixed;
+    z-index: 200;
+    min-height: 4px;
+    width: 100%;
+    //margin-bottom: -4px;
+  }
+
+  .wim-logo {
+    height: 62px;
+    width: auto;
+  }
+  .navbar-burger {
+    @include hamburger(4rem);
+  }
+  .burgerlabel {
+    left: -80%;
+    position: absolute;
+    top: 41%;
+    text-align: center;
+    font-size: .8em;
+  }
+
+  .navbar-toggler {
+    border: 0px solid;
+  }
+
+  .navbar-brand {
+    padding-top: 0;
+  }
+
+  .nav-item.languageswitcher .dropdown-toggle::after {
+    //display: none !important;
+  }
+
+  .languageswitcher .dropdown-menu-right {
+    position: absolute;
+    right: 0;
+    left: auto;
+  }
+
+  @include media-breakpoint-up(md) {
+    .languageswitcher {
+      order:2;
+    }
+  }
+}
