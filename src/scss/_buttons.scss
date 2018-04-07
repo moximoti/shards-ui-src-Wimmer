@@ -6,7 +6,7 @@
 
 .btn {
   font-weight: $btn-font-weight;
-  font-family: $font-family-poppins-first;
+  font-family: $font-family-header-first;
   border: $input-btn-border-width solid transparent;
 
   @include button-size(

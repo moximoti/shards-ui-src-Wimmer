@@ -29,18 +29,21 @@ h1, h2, h3, h4, h5, h6,
 h1, .h1 {
   font-size: $h1-font-size;
   letter-spacing: $headings-letter-spacing;
-  line-height: $h1-line-height;
+  //line-height: $h1-line-height;
+  margin-bottom: 1.75rem;
 }
 
 h2, .h2 {
   font-size: $h2-font-size;
   letter-spacing: $headings-letter-spacing;
-  line-height: $h2-line-height;
+  //line-height: $h2-line-height;
+  margin-bottom: 1.5rem;
 }
 
 h3, .h3 {
   font-size: $h3-font-size;
-  line-height: $h3-line-height;
+  //line-height: $h3-line-height;
+  margin-bottom: 1.25rem;
 }
 
 h4, .h4 {
@@ -60,6 +63,7 @@ h6, .h6 {
 
 .lead {
   line-height: $lead-line-height;
+  font-weight: 200;
 }
 
 // Type display classes

@@ -4,7 +4,7 @@
  * Copyright 2017-* DesignRevision (https://designrevision.com)
  * Copyright 2017-* Catalin Vasile (http://catalin.me)
  */
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600|Roboto+Mono");
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i|Roboto+Mono|Asap:400,400i,500,500i,600,600i,700,700i|Open+Sans:300,300i,400,400i,600,600i,700,700i");
 :root {
   --blue: #007bff;
   --indigo: #674eec;
@@ -32,7 +32,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-family-sans-serif: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --font-family-monospace: "Roboto Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.75rem;
-  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 400;
   color: #212529;
 }
@@ -83,23 +83,23 @@ h1, h2, h3, h4, h5, h6,
 h1, .h1 {
   font-size: 3.052rem;
   letter-spacing: -0.0625rem;
-  line-height: 3rem;
+  margin-bottom: 1.75rem;
 }
 
 h2, .h2 {
   font-size: 2.441rem;
   letter-spacing: -0.0625rem;
-  line-height: 2.25rem;
+  margin-bottom: 1.5rem;
 }
 
 h3, .h3 {
   font-size: 1.953rem;
-  line-height: 2.25rem;
+  margin-bottom: 1.25rem;
 }
 
 h4, .h4 {
   font-size: 1.563rem;
-  line-height: 2rem;
+  line-height: 2.25rem;
 }
 
 h5, .h5 {
@@ -114,6 +114,7 @@ h6, .h6 {
 
 .lead {
   line-height: 1.875rem;
+  font-weight: 200;
 }
 
 .display-1,
@@ -757,7 +758,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 
 .btn {
   font-weight: 300;
-  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   border: 1px solid transparent;
   padding: 0.75rem 1.25rem;
   font-size: 0.875rem;
@@ -2235,7 +2236,7 @@ i.material-icons {
 
 .nav {
   font-size: 0.875rem;
-  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .nav-link {
@@ -2759,7 +2760,7 @@ i.material-icons {
   padding-bottom: 0.55rem;
   margin-right: 1.5rem;
   font-size: 1rem;
-  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 400;
 }
 
@@ -2964,7 +2965,7 @@ i.material-icons {
 }
 
 .card-link {
-  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .card-link + .card-link {
@@ -3120,7 +3121,7 @@ i.material-icons {
   padding-left: 0;
   list-style: none;
   border-radius: 0.25rem;
-  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 0.875rem;
 }
 
@@ -3857,7 +3858,7 @@ button.list-group-item-dark.active {
 .tooltip {
   z-index: 1070;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-style: normal;
   font-weight: 300;
   line-height: 1.5;
@@ -3941,7 +3942,7 @@ button.list-group-item-dark.active {
 .popover {
   z-index: 1060;
   max-width: 276px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-style: normal;
   font-weight: 300;
   line-height: 1.5;

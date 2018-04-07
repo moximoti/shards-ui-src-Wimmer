@@ -185,13 +185,18 @@ $transition-collapse:     height 100ms ease-in-out !default;
 
 // Fonts
 
-$google-fonts-import: 'https://fonts.googleapis.com/css?family=Poppins:300,400,500,600|Roboto+Mono'; // Includes: Poppins: Light, Regular, Medium, Semi-bold; Roboto Mono: Regular
+$google-fonts-import: 'https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i|Roboto+Mono|Asap:400,400i,500,500i,600,600i,700,700i|Open+Sans:300,300i,400,400i,600,600i,700,700i';
+//$google-fonts-import: 'https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i|Roboto+Mono|Encode+Sans:100,200,300,400,500,600,700,800,900|Cairo:200,300,400,600,700,900|Khula:300,400,600,700,800|Asap:400,400i,500,500i,600,600i,700,700i|Signika:300,400,600,700|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i';
+//$google-fonts-import: 'https://fonts.googleapis.com/css?family=Poppins:300,400,500,600|Roboto+Mono'; // Includes: Poppins: Light, Regular, Medium, Semi-bold; Roboto Mono: Regular
 
-$font-family-poppins-first: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+//$font-family-poppins-first: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-custom-first: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-header-first: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
 $font-family-system-first: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
 $font-family-roboto-mono-first: "Roboto Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 
-$font-family-sans-serif: $font-family-system-first !default;
+$font-family-sans-serif: $font-family-custom-first !default;
+//$font-family-sans-serif: $font-family-system-first !default;
 $font-family-monospace:  $font-family-roboto-mono-first !default;
 $font-family-base:       $font-family-sans-serif !default;
 
@@ -214,15 +219,15 @@ $h6-font-size: 1rem !default;
 
 $headings-margin-bottom: .75rem !default;
 
-$headings-font-family:   $font-family-poppins-first !default;
+$headings-font-family:   $font-family-header-first !default;
 $headings-font-weight:   400 !default;
 $headings-color:         $gray-900 !default;
 $headings-letter-spacing: -.0625rem !default; // ~1px
 
-$h1-line-height: 3rem !default;
-$h2-line-height: 2.25rem !default;
-$h3-line-height: 2.25rem !default;
-$h4-line-height: 2rem !default;
+$h1-line-height: 3.5rem !default;
+$h2-line-height: 2.6rem !default;
+$h3-line-height: 2.6rem !default;
+$h4-line-height: 2.25rem !default;
 $h5-line-height: 1.5rem !default;
 $h6-line-height: 1.5rem !default;
 
