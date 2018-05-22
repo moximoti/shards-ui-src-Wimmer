@@ -102,7 +102,6 @@ a:focus {
   position: relative;
   background: url("../images/_MG_6379_web.jpg") no-repeat fixed;
   background-size: cover;
-  padding-top: 100px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
@@ -133,16 +132,22 @@ a:focus {
   background: #212529;
 }
 
-@media (max-width: 767.98px) {
-  .wimmer-main .wim-head .inner-wrapper {
-    text-align: center;
-  }
+.wimmer-main .wim-head > .inner-wrapper {
+  margin-top: 100px;
 }
 
 @media (max-width: 400px) {
   .wimmer-main .wim-head .welcome-heading {
     font-size: 2.415rem;
   }
+}
+
+.wimmer-main .wim-head-map {
+  background: #e9ecef;
+}
+
+.wimmer-main .wim-head-map:before {
+  content: none;
 }
 
 .wimmer-main .section-title {
@@ -175,7 +180,7 @@ a:focus {
 }
 
 .wimmer-main .section-invert {
-  background: #f9fafc;
+  background: #f8f9fa;
 }
 
 .wimmer-main .testimonials .avatar {

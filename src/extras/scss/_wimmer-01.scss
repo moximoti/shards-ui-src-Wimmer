@@ -99,7 +99,7 @@ a:focus {
     position: relative;
     background: url('../images/_MG_6379_web.jpg') no-repeat fixed;
     background-size: cover;
-    padding-top: 100px;
+    //padding-top: 100px;
     //padding-bottom: 10px;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
 
@@ -128,11 +128,15 @@ a:focus {
       }
     }
 
+    >.inner-wrapper {
+      margin-top: 100px;
+    }
+
 
 
     @include media-breakpoint-down(sm) {
       .inner-wrapper {
-        text-align: center;
+        //text-align: center;
       }
     }
 
@@ -140,6 +144,14 @@ a:focus {
       .welcome-heading {
         font-size: 2.415rem;
       }
+    }
+  }
+
+  .wim-head-map {
+    background: $light;
+    &:before {
+      content: none;
+
     }
   }
 
@@ -179,7 +191,7 @@ a:focus {
 
   // Add a different tint to some sections.
   .section-invert {
-    background: #f9fafc;
+    background: #f8f9fa;
   }
 
   // Testimonials Section

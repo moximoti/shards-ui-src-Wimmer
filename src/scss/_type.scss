@@ -90,7 +90,8 @@ h6, .h6 {
 }
 
 .display-4 {
-  font-size: $display4-size;
+  font-size: $h1-font-size;
+  //font-size: $display4-size;
   line-height: $display-line-height;
 }
 

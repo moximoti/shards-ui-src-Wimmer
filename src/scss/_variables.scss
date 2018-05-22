@@ -671,7 +671,7 @@ $card-header-spacer-y:          ($card-spacer-y / 2) !default;
 $card-footer-spacer-x:          $card-spacer-x !default;
 $card-footer-spacer-y:          ($card-spacer-y / 2) !default;
 
-$card-border-radius:            0.625rem !default;
+$card-border-radius:            0.25rem !default;
 $card-inner-border-radius:      $card-border-radius !default;
 
 $card-cap-bg:                   rgba($blueish-grey, .06) !default;
@@ -850,7 +850,7 @@ $thumbnail-bg:                $body-bg !default;
 $thumbnail-border:            none !default;
 $thumbnail-padding:           0 !default;
 $thumbnail-border-radius:     $border-radius !default;
-$thumbnail-box-shadow:        none !default;
+$thumbnail-box-shadow:        0 3px 5px 0 rgba(0,0,0,.1), 0 1px 2px -1px rgba(0,0,0,.8) !default;
 
 
 // Figures
@@ -895,7 +895,7 @@ $code-padding-y:              .1875rem !default;
 $code-padding-x:              .8125rem !default;
 
 $kbd-font-size:               .75rem !default;
-$kbd-border-radius:           .625rem !default;
+$kbd-border-radius:           .25rem !default;
 $kbd-box-shadow:              none !default;
 $kbd-padding-y:               $code-padding-y !default;
 $kbd-padding-x:               $code-padding-x !default;
