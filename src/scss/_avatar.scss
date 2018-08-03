@@ -5,7 +5,7 @@
 // A set of shortcut classes for <img> element to make them round and size them appropirately for a range of avatar and media uses
 
 .avatar{
-  border-radius: 50%;
+  border-radius: $border-radius;
   width: $spacer*3;
   height: $spacer*3;
   &.avatar-xs{

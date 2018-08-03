@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "My Protected Area"
-AuthUserFile /homepages/7/d675035392/htdocs/next/dist/.htpasswd
-Require valid-user

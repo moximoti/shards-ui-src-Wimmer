@@ -192,6 +192,14 @@ mark,
   color: #868e96;
 }
 
+.img-wide {
+  max-height: 300px;
+}
+
+.img-pos-top-center {
+  object-position: top center;
+}
+
 code,
 kbd,
 pre,
@@ -289,7 +297,7 @@ tbody tr th {
 }
 
 .table-hover tr.bg-white:hover {
-  background-color: #e9ecef !important;
+  background-color: #f8f9fa !important;
 }
 
 tr.table-divider {
@@ -297,7 +305,7 @@ tr.table-divider {
 }
 
 .avatar {
-  border-radius: 50%;
+  border-radius: 0.25rem;
   width: 4.5rem;
   height: 4.5rem;
 }

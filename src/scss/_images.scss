@@ -22,3 +22,11 @@
   font-size: $figure-caption-font-size;
   color: $figure-caption-color;
 }
+
+.img-wide {
+  max-height: 300px;
+}
+
+.img-pos-top-center {
+  object-position: top center;
+}
